@@ -1,5 +1,5 @@
 {
-  "name": "@pranomvignesh/comments-widget",
+  "name": "comments-widget",
   "version": "1.0.0",
   "description": "This contains Webcomponent developed in Vannilla JS , this handles all the comments using custom data hooks",
   "main": "index.js",
