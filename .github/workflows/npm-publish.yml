@@ -4,8 +4,8 @@
 name: Publish to npm
 
 on:
-  release:
-    types: [created]
+  create:
+    ref_type: tag
 
 jobs:
   build:
