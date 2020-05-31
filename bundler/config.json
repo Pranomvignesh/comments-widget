@@ -1,0 +1,7 @@
+{
+    "DIST_PATH" : "./dist",
+    "LESS_PATH" : "./src/less",
+    "SCRIPTS_PATH" : "./src/scripts",
+    "BUNDLED_JS" : "{package.name}.js",
+    "BUNDLED_CSS": "{package.name}.css"
+}

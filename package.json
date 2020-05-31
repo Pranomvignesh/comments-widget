@@ -1,0 +1,59 @@
+{
+  "name": "comments-widget",
+  "version": "1.0.0",
+  "description": "This contains Webcomponent developed in Vannilla JS , this handles all the comments using custom data hooks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp",
+    "start": "nodemon server.js"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "sh bundler/hooks/checkForDebuggers.sh"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pranomvignesh/comments-widget.git"
+  },
+  "author": "PranomVignesh <pranomvignesh@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pranomvignesh/comments-widget/issues"
+  },
+  "homepage": "https://github.com/Pranomvignesh/comments-widget#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "body-parser": "^1.19.0",
+    "del": "^2.0.2",
+    "express": "^4.17.1",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "latest",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-cli": "^2.2.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-csso": "^2.0.0",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-less": "^4.0.1",
+    "gulp-minify": "^3.1.0",
+    "gulp-strip-debug": "^3.0.0",
+    "gulp-uglify": "^3.0.2",
+    "http": "0.0.1-security",
+    "husky": "^4.2.5",
+    "less": "^3.11.1",
+    "nodemon": "^2.0.4",
+    "run-sequence": "^1.2.2"
+  },
+  "browserslist": [
+    "ie >= 10",
+    "ie_mob >= 10",
+    "ff >= 30",
+    "chrome >= 34",
+    "safari >= 7",
+    "opera >= 23",
+    "ios >= 7",
+    "android >= 4.4",
+    "bb >= 10"
+  ]
+}
