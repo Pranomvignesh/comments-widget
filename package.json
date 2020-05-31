@@ -1,5 +1,5 @@
 {
-  "name": "comments-widget",
+  "name": "@pranomvignesh/comments-widget",
   "version": "1.0.0",
   "description": "This contains Webcomponent developed in Vannilla JS , this handles all the comments using custom data hooks",
   "main": "index.js",
@@ -9,6 +9,9 @@
     "production": "gulp --production",
     "start": "nodemon server.js"
   },
+  "files":[
+    "dist"
+  ],
   "husky": {
     "hooks": {
       "pre-commit": "sh bundler/hooks/checkForDebuggers.sh"
