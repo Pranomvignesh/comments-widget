@@ -4,7 +4,7 @@
   "description": "This contains Webcomponent developed in Vannilla JS , this handles all the comments using custom data hooks",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo 'No Testcases provided'",
     "build": "gulp",
     "production": "gulp --production",
     "start": "nodemon server.js"
